@@ -177,7 +177,7 @@ void *lista_iter_ver_actual(const lista_iter_t *iter){
 }
 
 bool lista_iter_al_final(const lista_iter_t *iter){
-    if(iter->nodo==NULL||iter->nodo->proximo==NULL){
+    if(iter->nodo==NULL){
         return true;
     }
     return false;
